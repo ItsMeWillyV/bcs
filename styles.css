@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*
+    Author: WillyV
+    Date: 9/7/24
+
+*/
+
+html {
+	background-color: tan;
+}
+
+body {
+	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	width: 50%;
+	margin: auto;
+	background-color: beige;
+}
+
+/*
+
+	Header & Footer
+
+*/
+
+header {
+	background-color: #505050;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	border-bottom: 5px solid gray;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0.25em 0em 0.25em 0em;
+}
+
+nav ul li a {
+	font-style: italic;
+	font-variant: all-small-caps;
+	color: yellow;
+	display: block;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: white;
+	color: orange;
+}
+
+footer {
+	font-family: cursive;
+	text-align: center;
+	border-top: 5px solid gray;
+	border-bottom: 5px solid gray;
+}
+
+/*
+
+	Text
+
+*/
+
+h1 {
+	font-variant: small-caps;
+}
+
+h2 {
+	font-style: italic;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+/*
+
+	Misc
+
+*/
+
+article {
+	padding: 20px;
+}
+
+figure {
+	border-radius: 10%;
+	border: 1px solid gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+img, .unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
